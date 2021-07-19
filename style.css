@@ -44,6 +44,7 @@ nav span {
     color: white;
     font-size: 30px !important;
     transition: all .2s ease-in-out;
+    padding: 10px;
 }
 
 nav span:hover {
@@ -73,6 +74,7 @@ nav span:hover {
     font-weight: 900;
     border-right: 4px solid black;
     box-sizing: border-box;
+    position: relative;
 }
 
 @keyframes typing {
@@ -94,7 +96,7 @@ nav span:hover {
 }
 
 .kirian {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 /* BAGIAN KANAN */
 .content {
@@ -103,8 +105,8 @@ nav span:hover {
 }
 
 .header {
-    margin-top: 80px;
-    margin-left: 50px;
+    padding-top: 80px;
+    padding-left: 50px;
 }
 
 .header h1{
@@ -116,11 +118,11 @@ nav span:hover {
 }
 
 .header p {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .skill {
-    margin-left: 50px !important;
+    padding-left: 50px !important;
 }
 
 .value {
@@ -135,62 +137,10 @@ nav span:hover {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
+    color: var(--main-color);
 }
 
 .content img{
     height: 195px;
-}
-
-/* PROJECT */
-#project {
-    margin-top: 80px;
-}
-
-.hideme {
-    opacity: 0;
-}
-
-#project h1 {
-    font-weight: 800;
-    color: var(--main-color);
-}
-
-#project img {
-    margin: 15px;
-    max-width: 400px;
-    border-radius: 30px;
-    transition: transform .2s;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
-}
-
-.image {
-    margin-left: 10px !important;
-}
-
-.judul-project{
-    margin-bottom: 50px;
-}
-
-#project img:hover {
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.5); 
-    z-index: 99;
-}
-
-#languages {
-    margin-top: 100px;
-}
-#languages h1{
-    font-weight: 800;
-    color: var(--main-color);
-}
-
-.bahasa {
-    margin-top: 80px;
-    margin-bottom: 100px;
-}
-
-.bahasa h5 {
-    font-weight: bolder;
 }
