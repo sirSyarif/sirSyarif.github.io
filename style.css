@@ -152,32 +152,20 @@ nav span:hover {
 }
 
 .cv a{
-    border-radius: 150px;
-    background-color: var(--main-color);
+    background-color: transparent;
     margin-top: 40px;
     font-weight: bolder;
     font-size: 18px;
-    margin-left: 15px;
-    color: white;
-    padding: 10px;
-}
-
-.cv a:nth-child(2){
-    background-color: transparent !important;
-    color: black !important;
-    border: 1px black solid;
-}
-
-.cv a:nth-child(1):hover{
-    background-color: transparent;
+    padding-left: 80px;
+    padding-right: 80px;
     color: black;
     border: 1px black solid;
 }
 
-.cv a:nth-child(2):hover{
-    background-color: var(--main-color) !important;
-    color: white !important;
-    border: 0px !important;
+.cv a:nth-child(1):hover{
+    background-color: var(--main-color);
+    color: white;
+    border: white 1px solid ;
 }
 
 .language {
@@ -185,7 +173,7 @@ nav span:hover {
     margin-bottom: 30px;
 }
 
-.language .familiar{
+.language .familiar:not(:first-child){
     margin-left: 30px;
 }
 
@@ -222,10 +210,26 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
+/* Projects */
+.project {
+    margin-top: 30px;
+}
+.project .headline{
+    font-size: 9vw;
+    padding-left: 80px;
+    font-weight: bolder;
+}
+
+.project-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
 /* Media Screen */
 @media only screen and (max-width: 768px) {
     .typewriter-text {
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     .header h1{
@@ -245,7 +249,21 @@ ul.timeline > li:before {
         max-width: 200px;
         height: auto;
         margin-left: -100px;
-        bottom: 20vh;
+        bottom: 25vh;
     }
 
+    .typewriter-text{
+        animation: none;
+        border-right: none;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .header{
+        padding-left: 0;
+    }
+
+    .language{
+        padding-left: 0;
+    }
 }
