@@ -53,9 +53,11 @@ nav span:hover {
 
 .photo img {
     position: absolute;
-    bottom: 0;
-    height: 400px;
-    left: 32%;
+    bottom: 10%;
+    height: 300px;
+    left: 50%;
+    margin-left: -150px;
+    filter: grayscale(30%);
 }
 
 /* TYPEWRITER */
@@ -82,7 +84,7 @@ nav span:hover {
         width: 0% 
     }
     to { 
-        width: 100% 
+        width: 95% 
     }
 }
 
@@ -94,6 +96,12 @@ nav span:hover {
         border-color: black; 
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .typewriter-text {
+        font-size: 30px;
+    }
+  }
 
 .kirian {
     margin-top: 10px;
@@ -143,4 +151,8 @@ nav span:hover {
 
 .content img{
     height: 195px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -240px;
 }
