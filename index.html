@@ -9,7 +9,6 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -95,36 +94,192 @@
     </div>
 
     <div class=" container-fluid project">
-        <p class="headline">Projects.</p>
-        <div class="recent-project row">
-            <p>bla bla</p>
-            <img src="/assets/landing.JPG" align="left" class="project-img">
-        </div>
-    </div>
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="col-sm-6 offset-sm-3">
-                <ul class="timeline">
-                    <li>
-                        <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
-                        <a href="#" class="float-right">21 March, 2014</a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                    </li>
-                    <li>
-                        <a href="#">21 000 Job Seekers</a>
-                        <a href="#" class="float-right">4 March, 2014</a>
-                        <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
-                    </li>
-                    <li>
-                        <a href="#">Awesome Employers</a>
-                        <a href="#" class="float-right">1 April, 2014</a>
-                        <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
-                    </li>
-                </ul>
+        <h1 class="headline hideme">Projects <span>.</span></h1>
+        <div class="container my-4 slider hideme">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <a data-toggle="modal" data-target="#modal1">
+                    <img src="/assets/landing5.png" class="w-100"/>
+                    </a>   
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <a data-toggle="modal" data-target="#modal2">
+                    <img src="/assets/landing1.png" class="w-100"/>
+                    </a>   
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <a data-toggle="modal" data-target="#modal3">
+                    <img src="/assets/landing2.png" class="w-100"/>
+                    </a>   
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <a data-toggle="modal" data-target="#modal4">
+                    <img src="/assets/landing3.png" class="w-100"/>
+                    </a>   
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <a data-toggle="modal" data-target="#modal5">
+                    <img src="/assets/landing4.png" class="w-100"/>
+                    </a>   
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <a data-toggle="modal" data-target="#modal6">
+                    <img src="/assets/landing.JPG" class="w-100"/>
+                    </a>   
+                </div>
             </div>
         </div>
     </div>
 
+<!-- Modals -->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title ">Marimasak</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img src="/assets/landing5.png" alt="" class="w-100">
+            <h4 class="project-headline">Concept</h4>
+            <p>Everyone loves cooking. But did they have social media only foor food recipes? Marimasak come with easy and eye catching website. </p>
+            <center><h4 class="project-headline ">Created in January 2021</h4></center>
+            <p></p>
+        </div>
+        <div class="modal-footer row d-flex justify-content-center">
+            <img src="/assets/react.png" alt="ReactJs">
+            <img src="/assets/sql.png" alt="MySQL">
+            <img src="/assets/laravel.png" alt="Laravel">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title ">Daily Blog</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img src="/assets/landing1.png" alt="" class="w-100">
+            <h4 class="project-headline">Concept</h4>
+            <p>Daily blog using blogger. But i created this manually using HTML and Bootstrap. Created to fulfill one of my favourite class, website programming.</p>
+            <center><h4 class="project-headline ">Created in July - December 2019</h4></center>
+            <p></p>
+        </div>
+        <div class="modal-footer row d-flex justify-content-center">
+            <img src="/assets/bootstrap.png" alt="">
+            <img src="/assets/html.png" alt="">
+            <img src="/assets/css.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title ">Too Expensive For U ( TEFU )</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img src="/assets/landing2.png" alt="" class="w-100">
+            <h4 class="project-headline">Concept</h4>
+            <p>Original product with expensive price? Why not. TEFU is one of the simplest online shop that created within a month.</p>
+            <center><h4 class="project-headline ">Created in January 2020</h4></center>
+            <p></p>
+        </div>
+        <div class="modal-footer row d-flex justify-content-center">
+            <img src="/assets/php.png" alt="">
+            <img src="/assets/sql.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title ">Perizinan Keluar Kelas</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img src="/assets/landing3.png" alt="" class="w-100">
+            <h4 class="project-headline">Concept</h4>
+            <p>This website make u easier when you can't join a class. Click this and that, and your absence is permitted.</p>
+            <center><h4 class="project-headline ">Created in August 2020</h4></center>
+            <p></p>
+        </div>
+        <div class="modal-footer row d-flex justify-content-center">
+            <img src="/assets/php.png" alt="">
+            <img src="/assets/sql.png" alt="MySQL">
+            <img src="/assets/laravel.png" alt="Laravel">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title ">iCOVID</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img src="/assets/landing4.png" alt="" class="w-100">
+            <h4 class="project-headline">Concept</h4>
+            <p>The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette. And you can track coronavirus disease in Indonesia using this website.</p>
+            <center><h4 class="project-headline ">Created in February 2020</h4></center>
+            <p></p>
+        </div>
+        <div class="modal-footer row d-flex justify-content-center">
+            <img src="/assets/js.png" alt="">
+            <img src="/assets/laravel.png" alt="Laravel">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title ">DMS Landing Page</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img src="/assets/landing.JPG" alt="" class="w-100">
+            <h4 class="project-headline">Concept</h4>
+            <p>Digital Marketing System( DMS ) used to maintain your business online. With talented customer care and administrator, your business will go international. This website created for Internship program.</p>
+            <center><h4 class="project-headline ">Created in September - December 2020</h4></center>
+            <p></p>
+        </div>
+        <div class="modal-footer row d-flex justify-content-center">
+            <img src="/assets/js.png" alt="">
+            <img src="/assets/laravel.png" alt="Laravel">
+            <img src="/assets/sql.png" alt="">
+            <img src="/assets/react.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
     <script>
         $(document).ready(function() {
     
